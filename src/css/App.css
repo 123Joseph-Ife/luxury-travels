@@ -20,3 +20,12 @@ main {
 .box {
     width: 300px;
 }
+.line {
+    width: 100%;
+    padding: 30px 150px;
+    background-color: #015CDE;
+}
+.line .div {
+    padding-right: 20px;
+    border-right: 2px solid #E2E4E8;
+}

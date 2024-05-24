@@ -4,6 +4,7 @@ import './css/helper-classes.css'
 import './css/media-queries.css'
 import Header from './Components/Header'
 import Landing from './Components/Landing'
+import Line from './Components/Line'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
         <Header />
         <Landing />
+        <Line />
     </>
   )
 }
