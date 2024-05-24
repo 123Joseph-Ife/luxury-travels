@@ -1,0 +1,61 @@
+.blue {
+  color: #086ad9;
+}
+.all-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-wrap-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.sb-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sp-bt {
+  justify-content: space-between;
+}
+.pad {
+  padding: 20px 150px;
+}
+.txt-ct {
+  text-align: center;
+}
+.gp-10 {
+  gap: 10px;
+}
+.gp-20 {
+  gap: 20px;
+}
+.gp-30 {
+  gap: 30px;
+}
+.theme {
+  color: #171e28;
+}
+.theme-background {
+  background-color: #171e28;
+}
+.white {
+  color: #fff;
+}
+.white-background {
+  background-color: #fff;
+}
+.big-font {
+  font-size: 3.5rem;
+}
+.big-text {
+  font-size: 1.2rem;
+}
