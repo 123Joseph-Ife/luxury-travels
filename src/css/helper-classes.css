@@ -18,10 +18,20 @@
   justify-content: left;
   align-items: left;
 }
+.left-flex {
+    display: flex;
+    justify-content: left;
+}
 .sb-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.right-wrap-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
 }
 .sp-bt {
   justify-content: space-between;
@@ -58,4 +68,13 @@
 }
 .big-text {
   font-size: 1.2rem;
+}
+.blue {
+    color: #0055FF;
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
 }

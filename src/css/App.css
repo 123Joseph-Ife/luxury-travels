@@ -73,3 +73,63 @@ main {
 .line .div:last-of-type {
     border-right: none;
 }
+.img {
+    width: 100%;
+}
+.down {
+    background-color: #FCFCFC;
+    border: 2px solid #DFDEDE;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+.down img {
+    cursor: pointer;
+}
+.question {
+    gap: 40px;
+}
+.question .txt {
+    width: 100%;
+}
+.email {
+    position: relative;
+}
+.email input {
+    padding: 15px 40px;
+    border-radius: 30px;
+    outline: 0;
+    border: 2px solid #171e28;
+    width: 100%;
+}
+.email .btn {
+    position: absolute;
+    border-radius: 30px;
+    padding: 15px 40px;
+    right: 0;
+}
+.faqs, .faq, .faq div {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.faq {
+    border-bottom: 2px solid #e2e4e8;
+    padding-top: 10px;
+}
+.faqs .faq div {
+    cursor: pointer;
+}
+.right {
+    width: 100%;
+}
+footer {
+    background-color: #015cde;
+    color: #fff;
+    padding: 20px 150px;
+}
+footer .links {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e2e4e8;
+}
+footer .p {
+    margin-top: 20px;
+}

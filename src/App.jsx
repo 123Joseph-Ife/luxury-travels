@@ -7,6 +7,10 @@ import Landing from "./Components/Landing";
 import Line from "./Components/Line";
 import { Travel } from "./Components/Travel";
 import Map from "./Components/Map";
+import Community from "./Components/Community";
+import Customers from "./Components/Customers";
+import Question from "./Components/Question";
+import Footer from "./Components/Footer";
 
 function App() {
   const [clicked, setClicked] = useState("false");
@@ -16,7 +20,11 @@ function App() {
       <Landing />
       <Line />
       <Travel />
-      {/* <Map /> */}
+      <Map />
+      <Community />
+      <Customers />
+      <Question />
+      <Footer />
     </div>
   );
 }

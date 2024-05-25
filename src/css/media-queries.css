@@ -2,18 +2,43 @@
   .header,
   .travel,
   .line,
-  .landing {
+  .landing,
+  .map,
+  .social,
+  .customers,
+  .question, footer {
     padding: 20px 50px;
   }
 }
 @media (max-width: 1000px) {
-  .landing h1 {
+  .travel h1,
+  .line h1,
+  .landing h1,
+  .map h1,
+  .social h1,
+  .customers h1,
+  .question h1 {
     font-size: 2.5rem;
   }
 }
 @media (max-width: 850px) {
-  .landing {
+  .landing,
+  .map,
+  .customers-container,
+  .question {
     flex-direction: column;
+  }
+  footer .links {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .social {
+    flex-direction: column-reverse;
+  }
+  .map,
+  .social,
+  .customers h1 {
+    text-align: center;
   }
   .line,
   .travel {
@@ -61,29 +86,74 @@
   .hamburger {
     display: flex;
   }
+  .travel h1,
+  .line h1,
+  .landing h1,
+  .map h1,
+  .social h1,
+  .customers h1,
+  .question h1 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 650px) {
   .line .div:nth-child(2) {
     border-right: none;
+  }
+  .map .down {
+    width: 100%;
+  }
+  .map .img img,
+  .social .img img {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
   .header,
   .travel,
   .line,
-  .landing {
+  .landing,
+  .map,
+  .social,
+  .customers,
+  .question, footer {
     padding: 20px 20px;
+  }
+  .travel h1,
+  .line h1,
+  .landing h1,
+  .map h1,
+  .social h1,
+  .customers h1,
+  .question h1 {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 450px) {
-    .line {
-        justify-content: left;
-        align-items: left;
-    }
-    .line .div {
-        border-right: none;
-        justify-content: left;
-        align-items: left;
-        border-bottom: 2px solid #e2e4e8;
-    }
+  .line {
+    justify-content: left;
+    align-items: left;
+  }
+  .line .div {
+    border-right: none;
+    justify-content: left;
+    align-items: left;
+    border-bottom: 2px solid #e2e4e8;
+  }
+}
+@media (max-width: 350px) {
+  .map .down {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    border-radius: 0;
+    padding: 10px;
+  }
+  .map .down div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
