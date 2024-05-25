@@ -1,7 +1,20 @@
-const Header = () => {
+const Header = ({ clicked, setClicked }) => {
   return (
-    <header className="sb-flex">
+    <header className="pad header sb-flex">
+      <div className="image sb-flex">
         <img src="/icons/logo.svg" alt="Logo" />
+        <div
+          className={clicked === "true" ? "hamburger active" : "hamburger"}
+          onClick={() =>
+            clicked === "true" ? setClicked("false") : setClicked("true")
+          }
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav className={clicked === "true" ? "sb-flex active" : "sb-flex"}>
         <ul className="all-flex gp-20">
           <li>
             <a href="#">Home</a>
@@ -27,6 +40,7 @@ const Header = () => {
             <a href="#">Register</a>
           </li>
         </ul>
+      </nav>
     </header>
   );
 };

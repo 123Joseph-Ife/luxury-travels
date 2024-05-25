@@ -1,5 +1,89 @@
-/* @media (max-width: 800px) {
-    body {
-        color: azure;
+@media (max-width: 1200px) {
+  .header,
+  .travel,
+  .line,
+  .landing {
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .landing h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 850px) {
+  .landing {
+    flex-direction: column;
+  }
+  .line,
+  .travel {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .line .div {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+  .travel .div {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+  .landing {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  header,
+  nav,
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav {
+    min-height: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -1000%;
+    transition: all 500ms;
+  }
+  nav.active {
+    left: 0;
+    transition: all 500ms;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+@media (max-width: 650px) {
+  .line .div:nth-child(2) {
+    border-right: none;
+  }
+}
+@media (max-width: 600px) {
+  .header,
+  .travel,
+  .line,
+  .landing {
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 450px) {
+    .line {
+        justify-content: left;
+        align-items: left;
     }
-} */
+    .line .div {
+        border-right: none;
+        justify-content: left;
+        align-items: left;
+        border-bottom: 2px solid #e2e4e8;
+    }
+}

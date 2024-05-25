@@ -2,7 +2,7 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <main className="sb-flex pad">
+    <main className="sb-flex pad landing">
       <div className="left-wrap-flex gp-30">
         <h1 className="big-font">Embark on Your <br />Next Adventure</h1>
         <p className="big-text">
@@ -12,9 +12,13 @@ const Landing = () => {
         </p>
         <button className="theme-background white">Get Started</button>
       </div>
-      <div>
+      <picture>
+        <source
+            srcSet="/images/responsive-mobile.png"
+            media="(max-width: 800px)"
+        />
         <img src="/images/mobile.png" alt="Mobile Phones" />
-      </div>
+      </picture>
     </main>
   );
 };
