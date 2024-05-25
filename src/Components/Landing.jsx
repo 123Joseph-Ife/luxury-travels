@@ -15,7 +15,7 @@ const Landing = () => {
       <picture>
         <source
             srcSet="/images/responsive-mobile.png"
-            media="(max-width: 800px)"
+            media="(max-width: 550px)"
         />
         <img src="/images/mobile.png" alt="Mobile Phones" />
       </picture>
