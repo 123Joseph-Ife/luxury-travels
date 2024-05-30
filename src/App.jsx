@@ -15,7 +15,7 @@ import Footer from "./Components/Footer";
 function App() {
   const [clicked, setClicked] = useState("false");
   return (
-    <div className={clicked === "true" ? "scroll-freeze" : ""}>
+    <div className="app">
       <Header clicked={clicked} setClicked={setClicked}/>
       <Landing />
       <Line />

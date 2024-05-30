@@ -1,5 +1,5 @@
-.scroll-freeze {
-    overflow-y: hidden;
+.app {
+    gap: 30px;
 }
 body {
     overflow-x: hidden;
